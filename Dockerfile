@@ -1,5 +1,5 @@
 FROM debian:bookworm-slim
 
-RUN apt update && apt install -y lyx
+RUN apt update && apt install -y lyx pdflatex
 
 CMD ["bash"]
